@@ -1,9 +1,10 @@
 {
-  "name": "v0-system-planning",
+  "name": "demo-v0-planning-mode",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev:url": "portless",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
@@ -23,6 +24,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.10",
+    "portless": "^0.15.3",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

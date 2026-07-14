@@ -199,10 +199,18 @@ this is a demo and the full trail is the point.
 
    ```bash
    pnpm install
-   pnpm dev
+   pnpm dev:url
    ```
 
-   Open http://localhost:3000.
+   `pnpm dev:url` is the **preferred** way to run the dev server. It runs
+   `next dev` behind [portless](https://portless.sh), serving the app at a stable
+   `https://v0-system-planning.localhost` instead of a port that shifts between
+   runs — no port conflicts and no cookie/storage clashes with other local apps.
+   The proxy auto-starts on first run; run `pnpm exec portless trust` once so the
+   local HTTPS cert is trusted.
+
+   Prefer a plain port? `pnpm dev` still runs `next dev` at
+   http://localhost:3000.
 
 ### Utility scripts
 

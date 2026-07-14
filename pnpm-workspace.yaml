@@ -1,3 +1,8 @@
 ignoredBuiltDependencies:
   - sharp
   - unrs-resolver
+
+# portless is a first-party Vercel Labs tool; exclude it from the global
+# minimum-release-age cooldown so we can track its latest releases immediately.
+minimumReleaseAgeExclude:
+  - portless

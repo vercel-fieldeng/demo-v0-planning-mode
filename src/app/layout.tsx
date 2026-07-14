@@ -4,8 +4,9 @@ import { GeistMono } from "geist/font/mono";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "v0 Studio",
-  description: "Build apps with v0 — prompt, plan, and preview in one place.",
+  title: "v0 Platform API Demo",
+  description:
+    "A demo of the v0 Platform API — prompt, plan, and preview in one place.",
 };
 
 // Set the theme before paint to avoid a flash. Defaults to dark.

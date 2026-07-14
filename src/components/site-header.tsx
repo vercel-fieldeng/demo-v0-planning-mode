@@ -10,7 +10,7 @@ export function SiteHeader({ showCreate = true }: { showCreate?: boolean }) {
           <span className="grid h-6 w-6 place-items-center rounded bg-gray-1000 text-[13px] font-bold text-background-100">
             v0
           </span>
-          <span className="text-sm font-semibold text-gray-1000">Studio</span>
+          <span className="text-sm font-semibold text-gray-1000">Demo</span>
         </Link>
         <nav className="flex items-center gap-4">
           <Link

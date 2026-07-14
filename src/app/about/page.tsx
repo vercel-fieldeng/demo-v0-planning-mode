@@ -3,8 +3,8 @@ import { SiteHeader } from "@/components/site-header";
 import { Badge } from "@/components/ui";
 
 export const metadata = {
-  title: "How it works — v0 Studio",
-  description: "How v0 Studio turns a prompt and a template into a live app.",
+  title: "How it works — v0 Platform API demo",
+  description: "How this demo turns a prompt and a template into a live app.",
 };
 
 function Section({
@@ -86,10 +86,10 @@ export default function AboutPage() {
             ← Back to projects
           </Link>
           <h1 className="mt-3 text-3xl font-semibold tracking-tight text-gray-1000">
-            How v0 Studio works
+            How this demo works
           </h1>
           <p className="mt-2 max-w-2xl text-[15px] leading-relaxed text-gray-900">
-            v0 Studio is a thin, branded front-end over the{" "}
+            This is a demo — a thin front-end over the{" "}
             <strong className="font-semibold text-gray-1000">
               v0 Platform API
             </strong>

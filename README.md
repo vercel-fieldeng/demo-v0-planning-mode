@@ -5,6 +5,12 @@ picks a template, optionally enables **Advanced Planning**, and watches v0 build
 it — progress and clarifying questions stream into a sidebar while the generated
 app renders live in an iframe.
 
+> **▶ Start here:** the best walkthrough of how this works is the in-app
+> **About** page. Spin up the repo ([Setup](#setup)) and open
+> **http://localhost:3000/about** — it explains the template flow, Advanced
+> Planning, and model switching interactively. The rest of this README mirrors
+> that content for reference.
+
 - **Landing** (`/`) lists previously created projects. Each project *is* a v0
   chat, fetched live via `v0.chats.find()` — there is no database.
 - **New** (`/new`) collects a prompt, a template, and the "Use Advanced
